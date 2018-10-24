@@ -33,7 +33,6 @@ public class BannerConrtoller {
         List<Banner> list=bannerService.selectAll(start,rows);
 
         map.put("rows", list);
-
         return map;
     }
 }

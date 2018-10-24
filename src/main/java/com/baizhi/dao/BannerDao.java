@@ -10,5 +10,6 @@ import java.util.List;
  */
 public interface BannerDao {
     public List<Banner> selectAll(@Param("start")int start,@Param("pagesize")int pagesize);
+    public int count();
 
 }
