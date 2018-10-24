@@ -22,4 +22,9 @@ public class BannerServiceImpl implements BannerService {
     public List<Banner> selectAll(int start,int pagesize) {
         return bannerDao.selectAll(start,pagesize);
     }
+
+    @Override
+    public int count() {
+        return bannerDao.count();
+    }
 }

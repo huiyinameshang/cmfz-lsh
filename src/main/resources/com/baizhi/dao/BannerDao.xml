@@ -7,6 +7,8 @@
     <select id="selectAll" resultType="Banner">
       select  *  from banner limit #{start},#{pagesize};
     </select>
-
+    <select id="count" resultType="int">
+        select  count(*)  from banner
+    </select>
 
 </mapper>

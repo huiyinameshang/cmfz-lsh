@@ -31,8 +31,9 @@ public class BannerConrtoller {
         int start = (page-1)*rows;
 		/*int end = page*rows;*/
         List<Banner> list=bannerService.selectAll(start,rows);
-
+        int count=bannerService.count();
         map.put("rows", list);
+        map.put("total", count);
         return map;
     }
 }
