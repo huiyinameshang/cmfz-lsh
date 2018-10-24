@@ -11,6 +11,7 @@ import java.util.List;
 
 public interface BannerService {
    public List<Banner> selectAll(int start,int pagesize);
+   public int count();
 
 
 }
