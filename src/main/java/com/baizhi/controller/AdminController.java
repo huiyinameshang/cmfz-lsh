@@ -28,7 +28,7 @@ public class AdminController {
             System.out.println(admin1+"'========================");
             if(admin1!=null){
                 session.setAttribute("admin1",admin1);
-                return "main/main";
+                return "redirect:/main/main.jsp";
             }
         }
 

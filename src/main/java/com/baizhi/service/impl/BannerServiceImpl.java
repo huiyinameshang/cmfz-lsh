@@ -27,4 +27,19 @@ public class BannerServiceImpl implements BannerService {
     public int count() {
         return bannerDao.count();
     }
+
+    @Override
+    public void update(int status,int id) {
+        bannerDao.update(status,id);
+    }
+
+    @Override
+    public void delete(int id) {
+        bannerDao.delete(id);
+    }
+
+    @Override
+    public void insert(Banner banner) {
+        bannerDao.insert(banner);
+    }
 }

@@ -79,12 +79,6 @@
     <div id="aa" class="easyui-accordion" data-options="fit:true">
 
     </div>
-
-
-
-
-
-
        <%-- <c:forEach items="${requestScope.list}" var="l">
             <div data-options="title:'${l.title}'">
                 <c:forEach items="${l.menuList}" var="ll">
